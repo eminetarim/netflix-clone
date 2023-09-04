@@ -1,0 +1,317 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+    url(img/arkaplan.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.header-row {
+  height: 70vh;
+  width: 100%;
+}
+.header-browse-row {
+  width: 100%;
+  height: 100vh;
+}
+body {
+  background-color: black;
+}
+img {
+  max-width: 100%;
+}
+.dropdown_container {
+  border: 1px solid white;
+  padding: 0.3rem;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.4);
+  margin-right: 1rem;
+}
+.select {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+  border: none;
+  outline: none;
+}
+.accordion-item {
+  background-color: rgb(36, 35, 35);
+  color: white;
+  margin-bottom: 10px;
+  border: none;
+}
+.accordion-button {
+  background-color: rgb(36, 35, 35);
+  color: white;
+}
+.accordion-button:not(.collapsed) {
+  background-color: rgb(36, 35, 35);
+  color: white;
+}
+.accordion-button:focus {
+  box-shadow: none;
+  background-color: rgb(74, 71, 71);
+}
+
+.breakline {
+  width: 100%;
+  height: 10px;
+  background-color: rgb(36, 35, 35);
+}
+.questions {
+  color: white;
+  text-align: center;
+  padding: 72px 0;
+}
+.section-row {
+  width: 100%;
+  height: 35vh;
+}
+.col-md-4 ul li {
+  list-style: none;
+}
+.col-md-4 ul li a {
+  color: white;
+  text-decoration: none;
+}
+.login_body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.491), rgba(0, 0, 0, 0.416)),
+    url(img/arkaplan.jpg);
+  height: 100vh;
+}
+.login-top {
+  width: 100vw;
+  height: 70px;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.login-top img {
+  width: 150px;
+}
+
+.login-box {
+  background-color: rgba(0, 0, 0, 0.899);
+  width: 430px;
+  height: 630px;
+  border-radius: 5px;
+  padding: 50px;
+  opacity: 0.8;
+}
+.small-text {
+  font-size: 13px;
+}
+.form-control {
+  box-shadow: none;
+}
+.login_footer {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.899);
+  opacity: 0.8;
+  margin-top: 100px;
+}
+.bindex_body {
+  background-color: #141414;
+  overflow-x: hidden;
+  width: 100%;
+}
+.netflix-padding-left {
+  padding-left: 57px;
+}
+
+.netflix-padding-right {
+  padding-right: 57px;
+}
+
+.navbar {
+  background-image: linear-gradient(#000000, rgba(0, 0, 0, 0.1));
+}
+
+.nav-link {
+  color: #e5e5e5;
+}
+
+.nav-link:hover {
+  color: #b3b3b3;
+}
+
+.navbar-brand img {
+  width: 100px;
+}
+
+i {
+  font-size: 20px;
+  color: #fff;
+  padding: 5px 20px;
+}
+
+.netflix-profile {
+  width: 30px;
+  height: 30px;
+  background-color: gray;
+  border-radius: 4px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.browse_index {
+  width: 100%;
+  height: 800px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+    url(img/arkaplan.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.carousel-container {
+  padding: 10px 5%;
+  /* background-color: red; */
+}
+
+.horizontal-carousel {
+  display: flex;
+  gap: 20px;
+  height: 200px;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+.carousel-header {
+  color: #e5e5e5;
+}
+
+.card {
+  flex: 1 0 250px;
+  height: 125px;
+  background-color: #141414;
+  transition: 0.2s linear;
+  position: relative;
+}
+
+.card img {
+  width: 250px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.card:hover {
+  transform: scaleX(1.4) scaleY(1.4);
+  z-index: 10;
+}
+
+.footer {
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+ul {
+  list-style: none;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.367);
+  font-weight: 100;
+}
+.netflix-logo {
+  margin-left: 3rem;
+}
+
+.btitle {
+  font-size: 35px;
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  text-align: center;
+}
+.profile {
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  border-radius: 10px;
+  border: 3px solid black;
+  text-align: center;
+  display: inline-block;
+  margin-left: 25px;
+}
+.profile a {
+  text-decoration: none;
+}
+
+.profile:hover {
+  border: 3px solid gray;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.profile-p {
+  color: #808080;
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 2px;
+}
+.profile-lists {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+.btn-browse {
+  color: #808080;
+  background-color: #141414;
+  cursor: pointer;
+  border: 2px solid #808080;
+  width: 218px;
+  height: 45px;
+  letter-spacing: 3px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  place-items: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.btn-browse:hover {
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+.account {
+  width: 100%;
+  background-color: #f3f3f3;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.account-ul {
+  color: blue;
+  font-size: 20px;
+  font-weight: normal;
+  padding: 0;
+}
+.plus {
+  color: #141414;
+  font-size: 30px;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("img/x-lg.svg");
+  color: white;
+}
+
+.accordion-button.collapsed::after {
+  background-image: url("img/plus-lg.svg");
+  color: white;
+}
